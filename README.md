@@ -1,7 +1,7 @@
 # FruktandBrokkoli
 frukt og brokkoli
 
-Medlemmer
+Medlemmer:
 
    Informasjonssystemer: Huy Chi Nguyen, Tobias Olausson, Lucas Nundel.
 
