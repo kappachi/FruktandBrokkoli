@@ -3,8 +3,8 @@ frukt og brokkoli
 
 Medlemmer
 
-Informasjonssystemer: Huy Chi Nguyen, Tobias Olausson, Lucas Nundel.
+  Informasjonssystemer: Huy Chi Nguyen, Tobias Olausson, Lucas Nundel.
 
-Digitale Medier: Markus Pettersen.
+  Digitale Medier: Markus Pettersen.
 
 BROKKOLI
