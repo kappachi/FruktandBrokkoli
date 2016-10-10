@@ -1,8 +1,25 @@
 /* === Mainsite === */
   #body {
-    background-color: #00FF00;
+    background-color: #00AA00;
   }
   
   #header {
+    background-color: green;
     color: pink;
+  }
+
+  #btnV {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+  }
+
+  #btnH {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
   }
