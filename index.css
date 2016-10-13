@@ -7,19 +7,27 @@
     background-color: green;
     color: pink;
   }
+	
+	#main {
+		position: fixed;
+		height: 100%;
+		width: 100%;
+	}
 
   #btnV {
     position: relative;
-    top: 0%;
-    left: 0%;
+    top: 50%;
+    left: 50%;
+		transform: translate(-50%,-50%);
     height: 100%;
     width: 100%;
   }
 
   #btnH {
     position: relative;
-    top: 0%;
-    left: 0%;
+    top: 50%;
+    left: 50%;
+		transform: translate(-50%,-50%);
     height: 100%;
     width: 100%;
   }
