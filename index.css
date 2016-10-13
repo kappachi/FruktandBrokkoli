@@ -1,83 +1,88 @@
 /* === Mainsite === */
-  #body {
-    background-color: #00AA00;
-  }
+	#body {
+		background-color: white;
+	}
   
-  #header {
-    background-color: green;
-    color: pink;
+	#header {
+		background-color: green;	
+		color: white;
 		position: fixed;
 		top: 10%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		height: 20%;
 		width: 100%;
-  }
+		text-align: center;
+	}
 	
 	#main {
 		position: fixed;
-		top: 65%;
+		top: 60%;
 		left: 50%;
 		transform: translate(-50%, -50%);
-		height: 70%;
+		height: 80%;
 		width: 100%;
+		background-color: green;
 	}
 
 	#venstre {
 		position: relative;
-		top: 60%;
-		left: 25%;
+		top: 50%;
+		left: 5%;
 		transform: translate(-50%, -50%);
-		height: 80%;
-		width: 25%;
+		height: 100%;
+		width: 10%;
 	}
 	
-  #btnV {
-    position: relative;
-    top: 50%;
-    left: 50%;
+	#btnV {
+		position: relative;
+		top: 50%;
+		left: 50%;
 		transform: translate(-50%,-50%);
-    height: 100%;
-    width: 100%;
+		height: 100%;
+		width: 100%;
 		color: white;
 		background-color: grey;
-  }
+	}
 
 	#hoved {
 		position: relative;
-		top: 60%;
+		top: -50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
-		height: 80%;
-		width: 50%;
+		height: 100%;
+		width: 80%;
 		background-color: lightgrey; 
 	}
 
 	#hoyre{
 		position: relative;
-		top: 60%;
-		left: 75%;
+		top: -150%;
+		left: 95%;
 		transform: translate(-50%, -50%);
-		height: 80%;
-		width: 25%;
+		height: 100%;
+		width: 10%;
 	}
 
-  #btnH {
-    position: relative;
-    top: 50%;
-    left: 50%;
+	#btnH {
+		position: relative;
+		top: 50%;
+		left: 50%;
 		transform: translate(-50%,-50%);
-    height: 100%;
-    width: 100%;
+		height: 100%;
+		width: 100%;
 		color: white;
 		background-color: grey;
-  }
+	}
 
 	#footer {
 		position: fixed;
-		top: 95%;
+		top: 99%;
 		left: 50%;
 		transform: translate(-50%, -50%);
-		height: 10%;
+		height: 5%;
 		width: 100%;
+		background-color: green;
+		text-align: center;
+		color: white;
 	}
