@@ -1,0 +1,124 @@
+/* === Mainsite === */
+	#body {
+		background-color: white;
+	}
+
+.header{
+	background-color: blue;
+}
+
+.next, .previous{
+	cursor: pointer;
+	position: absolute;
+	top: 30%;
+	color: white;
+	padding: 20px;
+	width: auto;
+	font-size: 20px;
+}
+.previous{
+left: 580;
+}
+.slideshow-Content{
+	float: right;
+	margin: auto;
+}
+.aside{
+	background-color: red;
+}
+	#main {
+		position: fixed;
+		top: 60%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		height: 80%;
+		width: 100%;
+		background-color: green;
+	}
+
+	#venstre {
+		position: relative;
+		top: 50%;
+		left: 5%;
+		transform: translate(-50%, -50%);
+		height: 100%;
+		width: 10%;
+	}
+
+	#btnV {
+		position: relative;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		height: 100%;
+		width: 100%;
+		color: white;
+		background-color: grey;
+		font-size: 500%;
+	}
+
+	#hoved {
+		position: relative;
+		top: -50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		height: 100%;
+		width: 80%;
+		background-color: lightgrey;
+	}
+
+	#hoyre{
+		position: relative;
+		top: -150%;
+		left: 95%;
+		transform: translate(-50%, -50%);
+		height: 100%;
+		width: 10%;
+	}
+
+	#btnH {
+		position: relative;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		height: 100%;
+		width: 100%;
+		color: white;
+		background-color: grey;
+		font-size: 500%;
+	}
+
+	#footer {
+		position: fixed;
+		top: 99%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		height: 5%;
+		width: 100%;
+		background-color: green;
+		text-align: center;
+		color: white;
+	}
+			/* Responsiv design del */
+			[class*="col-"] {
+			    float: left;
+			    padding: 10px;
+			    border: 1px solid black;
+			}
+			[class*="col2-"] {
+					float: right;
+					padding: 10px;
+					border: 1px solid black;
+			}
+			.col2-1 {width: 8.33%;}
+			.col2-2 {width: 16.66%;}
+			.col2-3 {width: 25%;}
+			.col2-4 {width: 33.33%;}
+			.col2-5 {width: 41.66%;}
+			.col2-6 {width: 50%;}
+			.col2-7 {width: 58.33%;}
+			.col2-8 {width: 66.66%;}
+			.col2-9 {width: 75%;}
+			.col2-10 {width: 83.33%;}
+			.col2-11 {width: 91.66%;}
+			.col2-12 {width: 100%;}
