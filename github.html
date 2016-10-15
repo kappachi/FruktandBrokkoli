@@ -1,73 +1,42 @@
-
-<!doctype html>
-<html lang="no">
-<head>
-  <title> Frukt og Brokkoli </title>
-  <meta charset="utf-8">
-
-  <link rel="stylesheet" type="text/css" href="github.css" media="all" content="width=device-width, initial-scale=1.0">
-</head>
-
-<body id="body">
-	<!--
-  <section>
-    <h1>Plan:</h1>
-      <p>Skal handle om frukt salg + brokkoli, men bare 1 <strong>brokkoli!</strong>.
-         <br>Målgruppen er for mennesker som generelt er glad i frukt(økologisk) og 1 brokkoli da som sagt.
-        <br>Design:
-        <br>* Automatisk/manuel Slideshow/Frontpage.
-        <br>* Hente informasjon fra wikipedia blant annet andre sikre sider med riktig innhold.
-        <br>*
-      </p>
-  </section>
-  -->
-<div class="header">
-  <!--<img src="logo.png" alt="pic" />-->
-  <h1>Frukt og Brokkoli</h1>
-</div>
-<div class="col-9">
-  <div class="slideshow-Content">
-    <div class="slide-cont">
-      <img src="banan.jpg" alt="" />
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Slideshow</title>
+    <link rel="stylesheet" href="slide.css" media="all">
+    <meta content="width = device-width, initial-scale = 1.0">
+  </head>
+  <body>
+    <div class="header">
+      <h1>Frukt og Brokkoli</h1>
     </div>
-
-    <a class="next"onclick="btnGo">Neste</a>
-    <a class="previous" onclick="btnAntiGo">Forrige</a>
-  </div>
-</div>
-<div class="col-3">
-  <div class="aside">
-    Informasjon kommer inn her
-  </div>
-</div>
-
-
-<!--
-		<nav>
-			<ul>
-			<li>Kontakt Oss </li>
-			<li> bla </li>
-			<li> bla </li>
-			</ul>
-		</nav>
-	</header>
---><!--
-	<main id="main">
-
-		<aside id="venstre">
-			<button type="button" id="btnV">&lt;</button>
-		</aside>
-
-		<article id="hoved">
-
-		</article>
-
-		<aside id="hoyre">
-			<button type="button" id="btnH">></button>
-		</aside>
-
-	</main>
--->
-  <footer id="footer">© FruktOgBrokkoli™</footer>
-</body>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="Watermelon.jpg" style="width:100%">
+        </div>
+          <div class="mySlides fade">
+            <img src="grapefruit.jpg" style="width:100%">
+          </div>
+        <div class="mySlides fade">
+          <img src="banan.jpg" style="width:100%">
+        </div>
+      <a class="prev" onclick="numSlides(-1)">❮</a>
+      <a class="next" onclick="numSlides(1)">❯</a>
+    </div>
+    <script>
+    var slideTall = 1;
+    visSlides(slideTall);
+    function numSlides(n) {
+      visSlides(slideTall += n);
+    } function visSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideTall = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      } slides[slideTall-1].style.display = "block";
+    }
+    </script>
+  </body>
 </html>

@@ -1,122 +1,44 @@
-/* === Mainsite === */
-	#body {
-		background-color: white;
-	}
-
 .header{
-	background-color: blue;
+  font-size: 30px;
+  text-align: center;
+  background-color: blue;
+  padding: 20px;
+  margin: 10px;
 }
-
-.next, .previous{
-	cursor: pointer;
-	position: absolute;
-	top: 30%;
-	color: white;
-	padding: 20px;
-	width: auto;
-	font-size: 20px;
+* {
+box-sizing:border-box
 }
-.previous{
-left: 580;
+.mySlides {
+display:none
 }
-.slideshow-Content{
-	float: right;
-	margin: auto;
+.slideshow-container {
+  max-width: 900px;
+  position: relative;
+  margin: auto;
 }
-.aside{
-	background-color: red;
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-size: 18px;
+  transition: 0.2s ease;
 }
-	#main {
-		position: fixed;
-		top: 60%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		height: 80%;
-		width: 100%;
-		background-color: green;
-	}
-
-	#venstre {
-		position: relative;
-		top: 50%;
-		left: 5%;
-		transform: translate(-50%, -50%);
-		height: 100%;
-		width: 10%;
-	}
-
-	#btnV {
-		position: relative;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%,-50%);
-		height: 100%;
-		width: 100%;
-		color: white;
-		background-color: grey;
-		font-size: 500%;
-	}
-
-	#hoved {
-		position: relative;
-		top: -50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		height: 100%;
-		width: 80%;
-		background-color: lightgrey;
-	}
-
-	#hoyre{
-		position: relative;
-		top: -150%;
-		left: 95%;
-		transform: translate(-50%, -50%);
-		height: 100%;
-		width: 10%;
-	}
-
-	#btnH {
-		position: relative;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%,-50%);
-		height: 100%;
-		width: 100%;
-		color: white;
-		background-color: grey;
-		font-size: 500%;
-	}
-
-	#footer {
-		position: fixed;
-		top: 99%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		height: 5%;
-		width: 100%;
-		background-color: green;
-		text-align: center;
-		color: white;
-	}
-			/* Responsiv design del */
-			[class*="col-"] {
-				width: 100%;
-				border: solid black;
-				padding: 3px;
-			}
-
-			@media only screen and (min-width: 800px){
-			.col2-1 {width: 8.33%;}
-			.col2-2 {width: 16.66%;}
-			.col2-3 {width: 25%;}
-			.col2-4 {width: 33.33%;}
-			.col2-5 {width: 41.66%;}
-			.col2-6 {width: 50%;}
-			.col2-7 {width: 58.33%;}
-			.col2-8 {width: 66.66%;}
-			.col2-9 {width: 75%;}
-			.col2-10 {width: 83.33%;}
-			.col2-11 {width: 91.66%;}
-			.col2-12 {width: 100%;}
-		}
+.next {
+  right: 0;
+}
+.prev:hover, .next:hover {
+  background-color: white;
+}
+.zoom {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 1.5s;
+  animation-name: zoom;
+  animation-duration: 1.5s;
+}
+@media only screen and (max-width: 1000px) {
+  .prev, .next,.text {font-size: 11px}
+}
