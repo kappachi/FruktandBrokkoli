@@ -101,15 +101,12 @@ left: 580;
 	}
 			/* Responsiv design del */
 			[class*="col-"] {
-			    float: left;
-			    padding: 10px;
-			    border: 1px solid black;
+				width: 100%;
+				border: solid black;
+				padding: 3px;
 			}
-			[class*="col2-"] {
-					float: right;
-					padding: 10px;
-					border: 1px solid black;
-			}
+
+			@media only screen and (min-width: 800px){
 			.col2-1 {width: 8.33%;}
 			.col2-2 {width: 16.66%;}
 			.col2-3 {width: 25%;}
@@ -122,3 +119,4 @@ left: 580;
 			.col2-10 {width: 83.33%;}
 			.col2-11 {width: 91.66%;}
 			.col2-12 {width: 100%;}
+		}
