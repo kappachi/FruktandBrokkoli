@@ -22,8 +22,7 @@ display:none
   top: 50%;
   width: auto;
   padding: 16px;
-  margin-top: -22px;
-  color: black;
+  color: lightgreen;
   font-size: 18px;
   transition: 0.2s ease;
 }
