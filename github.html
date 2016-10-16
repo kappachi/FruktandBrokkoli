@@ -11,17 +11,18 @@
       <h1>Frukt og Brokkoli</h1>
     </div>
     <div class="slideshow-container">
-        <div class="mySlides fade">
-          <img src="Watermelon.jpg" style="width:100%">
+        <div class="mySlides">
+          <img src="Watermelon.jpg" style="width:100%" alt="vannmelon">
         </div>
-          <div class="mySlides fade">
-            <img src="grapefruit.jpg" style="width:100%">
+          <div class="mySlides">
+            <img src="grapefruit.jpg" style="width:100%" alt="appelsin">
           </div>
-        <div class="mySlides fade">
-          <img src="banan.jpg" style="width:100%">
+        <div class="mySlides">
+          <img src="banan.jpg" style="width:100%" alt="banan">
+
         </div>
-      <a class="prev" onclick="numSlides(-1)">❮</a>
-      <a class="next" onclick="numSlides(1)">❯</a>
+      <a class="prev" onclick="numSlides(-1)">&lArr;</a>
+      <a class="next" onclick="numSlides(1)">&rArr;</a>
     </div>
     <script>
     var slideTall = 1;
@@ -31,9 +32,11 @@
     } function visSlides(n) {
       var i;
       var slides = document.getElementsByClassName("mySlides");
-      if (n > slides.length) {slideIndex = 1}
-      if (n < 1) {slideTall = slides.length}
-      for (i = 0; i < slides.length; i++) {
+      if (n > slides.length) {
+        slideIndex = 1
+      }  if (n < 1) {
+        slideTall = slides.length;
+      }for (i = 0; i < slides.length; i++) {
           slides[i].style.display = "none";
       } slides[slideTall-1].style.display = "block";
     }
