@@ -2,9 +2,9 @@
 	#body {
 		background-color: white;
 	}
-  
+
 	#header {
-		background-color: green;	
+		background-color: green;
 		color: white;
 		position: fixed;
 		top: 10%;
@@ -14,7 +14,7 @@
 		width: 100%;
 		text-align: center;
 	}
-	
+
 	#main {
 		position: fixed;
 		top: 60%;
@@ -33,7 +33,7 @@
 		height: 100%;
 		width: 10%;
 	}
-	
+
 	#btnV {
 		position: relative;
 		top: 50%;
@@ -53,7 +53,7 @@
 		transform: translate(-50%, -50%);
 		height: 100%;
 		width: 80%;
-		background-color: lightgrey; 
+		background-color: lightgrey;
 	}
 
 	#hoyre{
@@ -88,3 +88,27 @@
 		text-align: center;
 		color: white;
 	}
+
+	nav {
+    width: auto;
+    height: auto;
+    background: green;
+    border: 0px solid green;
+    text-align: center;
+}
+
+	nav ul li {
+    display: inline-block;
+}
+
+	nav ul li a {
+	  display: block;
+	  margin-right: 10px;
+	  width: 100px;
+	  font-size: 18px;
+	  line-height: 44px;
+	  text-align: center;
+	  text-decoration: none;
+	  color: white;
+	}
+
