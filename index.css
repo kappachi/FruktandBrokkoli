@@ -22,7 +22,7 @@
 		transform: translate(-50%, -50%);
 		height: 80%;
 		width: 100%;
-		background-color: green;
+		background-color: #699A33;
 	}
 
 	#venstre {
@@ -149,11 +149,35 @@ display:none
   background-color: white;
 }
 .zoom {
-  -webkit-animation-name: zoom;
-  -webkit-animation-duration: 1.5s;
   animation-name: zoom;
   animation-duration: 1.5s;
 }
 @media only screen and (max-width: 500px) {
-  .prev, .next,.text {font-size: 11px}
+  .prev, .next,.text {font-size: 11px};
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* Styles */
 }
