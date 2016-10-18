@@ -1,12 +1,12 @@
 /* === Mainsite === */
 	#body {
-		background-color: green;
+		background-color: #699A33;
 	}
 
 	#header {
-		background-color: blue;
+		background-color: #284D00;
 		color: white;
-		position: fixed;
+		position: relative;
 		top: 10%;
 		left: 50%;
 		transform: translate(-50%, -50%);
@@ -16,7 +16,7 @@
 }
 
 	#main {
-		position: fixed;
+		position: relative;
 		top: 60%;
 		left: 50%;
 		transform: translate(-50%, -50%);
@@ -78,13 +78,13 @@
 	}
 
 	#footer {
-		position: fixed;
+		position: relative;
 		top: 99%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		height: 5%;
 		width: 100%;
-		background-color: blue;
+		background-color: #284D00;
 		text-align: center;
 		color: white;
 	}
@@ -92,7 +92,7 @@
 	nav {
     width: auto;
     height: auto;
-    background: blue;
+    background: #284D00;
     border: 0px solid green;
     text-align: center;
 }
@@ -157,26 +157,26 @@ display:none
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen
+@media only all
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
 /* Styles */
 }
 
 /* Smartphones (landscape) ----------- */
-@media only screen
+@media only all
 and (min-width : 321px) {
 /* Styles */
 }
 
 /* Smartphones (portrait) ----------- */
-@media only screen
+@media only all
 and (max-width : 320px) {
 /* Styles */
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen
+@media only all
 and (min-device-width : 768px)
 and (max-device-width : 1024px) {
 /* Styles */
