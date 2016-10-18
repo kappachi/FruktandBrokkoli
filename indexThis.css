@@ -36,8 +36,8 @@ li a{
   padding: 10px 50px;
 }
 li a:hover {
-  width: 20%;
-  background-color: red;
+  width: auto;
+  background-color: lime;
 }
 .header, nav{
   background-color: green;
