@@ -3,7 +3,7 @@
 	.bilder {
 		float: top;
 	}
-	
+
 	.txtInf {
 		float: bottom;
 	}
@@ -14,14 +14,28 @@
 	.bilder {
 		float: left;
 	}
-	
+
 	.txtInf {
 		float: right;
 	}
 }
 
-li{
+header h1 a {
+	text-decoration: none;
+	font-family: "Freestyle Script";
+	font-size: 50px;
+	color: aqua;
+}
+
+header h1 img {
   float: left;
+  width: 100px;
+  height: 80px;
+	position: absolute;
+}
+
+li{
+	display: inline-block;
 }
 ul{
   list-style-type: none;
@@ -81,8 +95,8 @@ display:none
   position: absolute;
   top: 50%;
   width: auto;
-  padding: 16px;
-  color: black;
+  padding: 0;
+  color: #66ff33;
   font-size: 50px;
   transition: 0.2s ease;
 }
