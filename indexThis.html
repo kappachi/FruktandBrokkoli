@@ -18,7 +18,62 @@
 
     <div class="body">
       <div class="slider">
-
+        <div class="slideshow-container">
+            <div class="mySlides">
+              <img src="Watermelon.jpg" style="width:100%" alt="vannmelon">
+              <p class="txtInf">
+                <b>Vannmelon</b><br/>
+                Vannmelonen er en frukt som opprinnelig kommer fra Afrika. Den har som oftest rød fruktmasse og svarte frø, men det finnes også typer med gul fruktmasse og uten steiner.
+                Hele 93 % av melonen består av vann, ifølge Helsenett.Den typen vannmelon som hovedsakelig importeres til Norge kan veie opptil
+                6-8 kilo, men det finnes større typer; den søramerikanske sandia kan bli 60 cm lang og veie over 50 kg. Rekordnoteringen for vannmeloner er forøvrig
+                 oppgitt til like oppunder 159 kg,[2] for en vannmelon av typen «Carolina Cross».
+              </p>
+            </div>
+              <div class="mySlides">
+                <img src="grapefruit.jpg" style="width:100%" alt="appelsin">
+                <p class="txtInf">
+                  <b>Appelsin</b><br/>
+                  Arten stammer opprinnelig fra Kina, men dyrkes nå også i middelhavsområder. Den dyrkes også i USA og Latin-Amerika. Frukten er rund og oransje med tykt skall.
+                  Appelsintreet kan bli opptil tolv meter høyt. Det har læraktige blader, noen torner og det blomstrer hele året. Frukten er egentlig et bær. Det er for det meste
+                  fruktene fra treet som blir brukt, men det er også mulig å lage te av blomstene. De kan også kokes og brukes i mat.
+                  Appelsiner plukkes ofte før de er modne, hvilket får effekt på smaken, som blir mer syrlig og mindre aromatisk. Dette skyldes den oftest lange transportveien
+                  fra opphavslandene, som f.eks. Nord-Afrika, Hellas, Italia, Israel, Spania og Tyrkia.
+                  Navnet appelsin betyr «kinesisk eple». Dette navnet kommer fra folkelig nederlandsk appelsien (standard nederlandsk: sinaasappel) og blir brukt på dansk, norsk,
+                  svensk (apelsin), islandsk (appelsína), russisk (apelsin) og på finsk (appelsiini), men ikke på tagalog (dalandan).
+                </p>
+              </div>
+            <div class="mySlides">
+              <img src="banan.jpg" style="width:100%" alt="banan">
+              <p class="txtInf">
+                <b>Banan</b><br/>
+                Banan er en avlang frukt som opprinnelig kommer fra Sørøst-Asia og som vokser på bananplanter.
+                 Denne gamle kulturplanten er en stor urt, som minner om en palme. Bananer blir i dag dyrket i det tropiske beltet
+                 langs ekvator både i Amerika, Asia og Afrika. Det finnes ulike typer bananplanter som alle hører til slekten Musa.
+              </p>
+            </div>
+          <div class="mySlides">
+              <img src="stjernefrukt.jpg" style="width:100%" alt="stjernefrukt">
+              <p class="txtInf">
+                Dette er Star fruit "Averrhoa carambola".
+                Star fruit eller carambola er et frukt tree som holder til i Filipinene,<br>
+                men kan bli funnet utøver hele sør-øst Asia, øst-Asia, sør-Amerika, Florida og Hawaii.<br>
+                Denne frukten har fem riller nedover lengden som kutter sidelengs. Dette lager stjerneformen.<br>
+                Stjerne Frukten er rik på Vitamin C og antioksidanter.<br>
+                Når frukten er moden så kan man spise hele.<br>
+              </p>
+            </div>
+           <div class="mySlides">
+              <img src="jabuticaba.jpg" style="width:100%" alt="jabuticaba">
+              <p class="txtInf">
+                Jabuticaba ligner i størrelsen på en "Plumme", men med smaken av en drue.<br>
+                Denne frukten blir ofte kalt Brasiliansk tre-drue. Denne frukten er unik på grunn av dens merkelige vokse habitater.<br>
+                I motsetning til andre frukter, som vokser på røtter fra trær, Jabuticaba vokser direkte fra tre-barken.<br>
+                Frukten kan bli plukket og spist rå, laget om til syltetøy eller bli fermentert slik at den kan bli til vin.<br>
+              </p>
+            </div>
+          <a class="prev" onclick="numSlides(-1)">&lArr;</a>
+          <a class="next" onclick="numSlides(1)">&rArr;</a>
+        </div>
       </div>  <!-- Div end slider -->
     </div>  <!-- Div end body -->
 
@@ -26,7 +81,21 @@
       <p> Footer tekst her</p>
     </div> <!-- Div end footer -->
     <script type="text/javascript">
-
+    var slideTall = 1;
+    visSlides(slideTall);
+    function numSlides(n) {
+      visSlides(slideTall += n);
+    } function visSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      if (n > slides.length) {
+        slideTall = 1
+      }  if (n < 1) {
+        slideTall = slides.length;
+      }for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      } slides[slideTall-1].style.display = "block";
+    }
     </script>
   </body>
 </html>
