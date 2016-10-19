@@ -1,24 +1,3 @@
-/*mobil og andre mindre skjermer*/
-@media all and (max-width: 800px) {
-	.bilder {
-		float: top;
-	}
-
-	.txtInf {
-		float: bottom;
-	}
-}
-
-/*større skjermer*/
-@media all and (min-width: 800px) {
-	.bilder {
-		float: left;
-	}
-
-	.txtInf {
-		float: right;
-	}
-}
 html{
 	background-color: #111C15;
 
@@ -119,4 +98,16 @@ display:none
 }
 .prev:hover, .next:hover {
   background-color: white;
+}
+
+/*mobil og andre mindre skjermer*/
+@media all and (max-width: 500px) {
+	.body {
+		font-size: 200%;
+	}
+}
+
+/*større skjermer*/
+@media all and (min-width: 500px) {
+	
 }
