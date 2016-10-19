@@ -18,6 +18,10 @@ header h1 img {
 position: absolute;
 }
 
+ul li a {
+	font-size: 22px;
+}
+
 li{
 	display: inline-block;
 }
@@ -83,7 +87,7 @@ display:none
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 35%;
   width: auto;
   padding: 0;
    color: #D5E3DA;
@@ -114,6 +118,6 @@ display:none
 /*større skjermer*/
 @media all and (min-width: 500px) {
 	p {
-		font-size: 130%;
+		font-size: 120%;
 	}
 }
