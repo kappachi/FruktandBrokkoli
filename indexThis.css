@@ -102,6 +102,10 @@ display:none
 
 /*mobil og andre mindre skjermer*/
 @media all and (max-width: 500px) {
+	.header {
+		font-size: 200%;
+	}
+	
 	.body {
 		font-size: 200%;
 	}
