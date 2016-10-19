@@ -113,5 +113,7 @@ display:none
 
 /*større skjermer*/
 @media all and (min-width: 500px) {
-	
+	p {
+		font-size: 130%;
+	}
 }
