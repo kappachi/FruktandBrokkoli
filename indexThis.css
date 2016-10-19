@@ -19,19 +19,24 @@
 		float: right;
 	}
 }
+html{
+	background-color: #111C15;
+
+}
 
 header h1 a {
 	text-decoration: none;
 	font-family: "Freestyle Script";
 	font-size: 50px;
-	color: aqua;
+	color: #C2006E;
+	padding: 10px;
 }
 
 header h1 img {
   float: left;
   width: 100px;
   height: 80px;
-	position: absolute;
+position: absolute;
 }
 
 li{
@@ -42,7 +47,7 @@ ul{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: lightgreen;
+  background-color: #2C8437;
 }
 li a{
   display: inline-block;
@@ -51,10 +56,10 @@ li a{
 }
 li a:hover {
   width: auto;
-  background-color: lime;
+  background-color: #346145;
 }
 .header, nav{
-  background-color: green;
+  background-color: #111C15;
   text-align: center;
   width: 100%;
   float: left;
@@ -63,14 +68,20 @@ li a:hover {
   width: 100%;
   float: left;
   height: 100%;
-  background-color: lightblue;
+  background-color: #42BA36;
+  padding: 15px;
 
 }
 .text{
   background-color: grey;
 }
+.txtInf{
+ border: solid black;
+ background-color: #22AB55;
+}
 .footer{
-  background-color: lightpink;
+  background-color: #111C15;
+  color: white;
   text-align: center;
   width: 100%;
   float: left;
@@ -96,7 +107,7 @@ display:none
   top: 50%;
   width: auto;
   padding: 0;
-  color: #66ff33;
+   color: #D5E3DA;
   font-size: 50px;
   transition: 0.2s ease;
 }
